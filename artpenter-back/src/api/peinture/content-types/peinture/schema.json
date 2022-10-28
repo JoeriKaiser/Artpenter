@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "peintures",
+  "info": {
+    "singularName": "peinture",
+    "pluralName": "peintures",
+    "displayName": "peinture"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
