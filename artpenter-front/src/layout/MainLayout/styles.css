@@ -2,8 +2,9 @@
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: 8% 90%;
-  background-color: whitesmoke;
+  grid-template-columns: 6% 92%;
+  background-color: #fffff4;
+  padding: 2% 0;
 }
 
 .header-container-main-title {
@@ -16,6 +17,8 @@
 .header-main-title {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.8rem;
 }
 
 aside {
@@ -33,8 +36,22 @@ aside {
   border-top: 1px solid black;
 }
 main {
-  margin-top: 2%;
-  background-color: black;
+  background-image: linear-gradient(
+    to right bottom,
+    #10005f,
+    #110064,
+    #120069,
+    #13006f,
+    #140074,
+    #15007c,
+    #170085,
+    #18008d,
+    #1a009b,
+    #1d00a9,
+    #1f00b7,
+    #2100c6
+  );
+  box-shadow: 0px 0px 15px -6px #c8c8c8;
 }
 
 .nav-container ul {
